@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Official Telegram Channel | Ludo Comradery Hub</title>
+    <!-- Google Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            background: radial-gradient(circle at top, #1a1c29 0%, #0d0e15 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 15px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 440px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-radius: 28px;
+            padding: 35px 22px;
+            text-align: center;
+            box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .container::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(0, 136, 204, 0.12) 0%, transparent 60%);
+            z-index: -1;
+        }
+
+        /* Profile Icon */
+        .avatar-wrap {
+            position: relative;
+            width: 95px;
+            height: 95px;
+            margin: 0 auto 18px;
+        }
+
+        .avatar {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #0088cc, #00c6ff);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 45px;
+            color: #ffffff;
+            box-shadow: 0 0 25px rgba(0, 136, 204, 0.6);
+        }
+
+        .verified-badge {
+            position: absolute;
+            bottom: 2px;
+            right: 2px;
+            background: #0088cc;
+            color: #ffffff;
+            border-radius: 50%;
+            width: 26px;
+            height: 26px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            border: 2px solid #1a1c29;
+        }
+
+        /* Titles */
+        h1 {
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom: 6px;
+            letter-spacing: 0.5px;
+        }
+
+        .tagline {
+            color: #00c6ff;
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 18px;
+        }
+
+        /* Stats Bar */
+        .stats-box {
+            display: flex;
+            justify-content: space-around;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 12px 10px;
+            margin-bottom: 22px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .stat-val {
+            font-size: 15px;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .stat-lbl {
+            font-size: 11px;
+            color: #a0a5b5;
+        }
+
+        .online-dot {
+            height: 8px;
+            width: 8px;
+            background-color: #00ff88;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 4px;
+            box-shadow: 0 0 8px #00ff88;
+        }
+
+        /* Features List */
+        .features {
+            list-style: none;
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+        .features li {
+            font-size: 13.5px;
+            color: #d1d5db;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .features li i {
+            color: #00ff88;
+            font-size: 14px;
+        }
+
+        /* Call To Action Button */
+        .cta-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            width: 100%;
+            background: linear-gradient(90deg, #0088cc, #00b4d8);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 16px 20px;
+            font-size: 17px;
+            font-weight: 700;
+            border-radius: 50px;
+            box-shadow: 0 8px 25px rgba(0, 136, 204, 0.5);
+            transition: all 0.3s ease;
+            animation: pulse-glow 2s infinite;
+        }
+
+        .cta-btn:active {
+            transform: scale(0.97);
+        }
+
+        @keyframes pulse-glow {
+            0% {
+                box-shadow: 0 0 0 0 rgba(0, 136, 204, 0.7);
+            }
+            70% {
+                box-shadow: 0 0 0 16px rgba(0, 136, 204, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(0, 136, 204, 0);
+            }
+        }
+
+        /* Footer */
+        .footer-note {
+            font-size: 11px;
+            color: #717686;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Channel Icon -->
+        <div class="avatar-wrap">
+            <div class="avatar">
+                <i class="fa-brands fa-telegram"></i>
+            </div>
+            <div class="verified-badge">
+                <i class="fa-solid fa-check"></i>
+            </div>
+        </div>
+
+        <!-- Headings -->
+        <h1>LUDO COMRADERY HUB</h1>
+        <div class="tagline">Official Community</div>
+
+        <!-- Channel Analytics Box -->
+        <div class="stats-box">
+            <div class="stat-item">
+                <span class="stat-val">50,000+</span>
+                <span class="stat-lbl">Subscribers</span>
+            </div>
+            <div style="width: 1px; background: rgba(255,255,255,0.1);"></div>
+            <div class="stat-item">
+                <span class="stat-val"><span class="online-dot"></span>Active</span>
+                <span class="stat-lbl">Daily Matches</span>
+            </div>
+        </div>
+
+        <!-- Benefits / Bullet points -->
+        <ul class="features">
+            <li><i class="fa-solid fa-circle-check"></i> 100% Safe & Trusted Community</li>
+            <li><i class="fa-solid fa-circle-check"></i> 24/7 Active Tournaments & Updates</li>
+            <li><i class="fa-solid fa-circle-check"></i> Instant Support & Real-Time Alerts</li>
+        </ul>
+
+        <!-- Main Joining Button -->
+        <a href="https://t.me/+ma27aBvKsq9hYWU1" class="cta-btn" target="_blank">
+            <i class="fa-brands fa-telegram fa-xl"></i>
+            JOIN TELEGRAM NOW
+        </a>
+
+        <div class="footer-note">
+            Free to join • Instant Access
+        </div>
+    </div>
+
+</body>
+</html>
